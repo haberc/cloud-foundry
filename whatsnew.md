@@ -2,9 +2,9 @@
 
 copyright:
 
-  years: 2015, 2017, 2018
+  years: 2015, 2017, 2018, 2019
 
-lastupdated: "2018-02-20"
+lastupdated: "2019-02-21"
 
 ---
 
@@ -30,7 +30,7 @@ The following changes were released in version 2.1.0 of the {{site.data.keyword.
 
 * New autoscaling capability that automatically scales Cloud Foundry application instances based on custom rules. Autoscaling is accessible from the CLI and from the Stratos console. The Stratos console can be optionally installed and launched from the _Overview_ page in the CFEE user interface. In the _Applications_ page of the Stratos console, select an  application and look for the **Auto Scaling** tab. Click *Create Policy* to launch the autoscaling editor to define the scaling policy for the target application.
   See the [autoscaling documentation](https://cloud.ibm.com/docs/cloud-foundry?topic=cloud-foundry-autoscale_cloud_foundry_apps#autoscale_cloud_foundry_apps) for more information.
-* New capability to manage buildapcks from the user interface, including drag-and-drop positioning of a buildpack in the priority list. The capability is available in a new **Buildpacks** page of the CFEE user interface.
+* New capability to manage buildpacks from the user interface, including drag-and-drop positioning of a buildpack in the priority list. The capability is available in a new **Buildpacks** page of the CFEE user interface.
 * New capability to manage organization quotas from the user interface, including visualizing which organizations are using a specific quota. The capability is available in a new **Quotas** page in the CFEE user interface. You can create new quotas and edit existing ones. You can also update the values of the default quota with the values from any existing quota by invoking the **Copy to Default** from the quota's menu.
 * A new **Getting Started** page in the user interface guides users to the most important tasks to setup and use the environment.
 * **Tags** can be added to a CFEE instance in the IBM Cloud resource list.  Tags added in the resource list will also appear in the header of the CFEE overview page.
